@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+@font-face {
+    font-family: 'MyFont';
+    src: url('../src/assets/JetBrainsMono-Regular.ttf');
+  }
+body { margin: 0; font-family: 'MyFont'; }
+.mat-mdc-snack-bar-container {
+  --mat-mdc-snack-bar-button-color: #dfd6ff;
+  --mdc-snackbar-container-color: #33285e;
+  --mdc-snackbar-supporting-text-color: white;
+}
